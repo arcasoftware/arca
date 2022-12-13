@@ -1,2 +1,2 @@
 # proyeto arca
-👨‍💻se vera reflejado toda descripcion del proyecto (escrito)
+👨‍💻 aqui se vera reflejado la descripcion del proyecto arca.
