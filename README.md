@@ -9,7 +9,14 @@ NOMBRE COMERCIAL:
 
 “ARCA”. 
 
-ESLOGAN: 
+ESLOGAN:
+
+
+
+
+
+
+
 
 Navegando hacia la ambrosia. 
 
@@ -35,19 +42,14 @@ OBJETIVOS
 
 General 
 
-Optimizar los procesos de inventario y ventas del establecimiento de comidas rápidas 'LA CABAÑA. 
+•  Optimizar los procesos de inventario y ventas del establecimiento de comidas rápidas 'LA CABAÑA.
 
 Específicos 
-
-Definir los roles que van a manejar el sistema de información. 
-
-Hacer un diseño amigable e intuitivo del sistema de información para todos los roles  
-
-Implementar un módulo de inventario para tener un mejor manejo y rotación de las materias primas utilizadas por el establecimiento. 
-
-Crear e implementar un módulo de ventas que permita llevar un mejor control de las ganancias generadas por el establecimiento. 
-
-Generar una factura virtual para el cliente del establecimiento, para que tenga una constancia de la compra efectuada 
+•  Definir los roles que van a manejar el sistema de información. 
+•  Hacer un diseño amigable e intuitivo del sistema de información para todos los roles
+•  Implementar un módulo de inventario para tener un mejor manejo y rotación de las materias primas utilizadas por el establecimiento. 
+•  Crear e implementar un módulo de ventas que permita llevar un mejor control de las ganancias generadas por el establecimiento. 
+•  Generar una factura virtual para el cliente del establecimiento, para que tenga una constancia de la compra efectuada 
 
  
  
