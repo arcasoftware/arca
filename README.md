@@ -37,18 +37,22 @@ ALCANCE
 
 Nuestro sistema de información servirá como herramienta de apoyo de organización de inventarios y carro de compras para el establecimiento de comidas rápidas ‘LA CABAÑA’, buscando a largo plazo apoyar a negocios pequeños y medianos del sector de las comidas rápidas en Bogotá DC, garantizando oportunidades de crecimiento en un mercado que tiene grandes oportunidades como es la web. 
 
- 
 OBJETIVOS 
 
 General 
 
 •  Optimizar los procesos de inventario y ventas del establecimiento de comidas rápidas 'LA CABAÑA.
 
-Específicos 
-•  Definir los roles que van a manejar el sistema de información. 
+Específicos
+
+•  Definir los roles que van a manejar el sistema de información.
+
 •  Hacer un diseño amigable e intuitivo del sistema de información para todos los roles
+
 •  Implementar un módulo de inventario para tener un mejor manejo y rotación de las materias primas utilizadas por el establecimiento. 
+
 •  Crear e implementar un módulo de ventas que permita llevar un mejor control de las ganancias generadas por el establecimiento. 
+
 •  Generar una factura virtual para el cliente del establecimiento, para que tenga una constancia de la compra efectuada 
 
  
