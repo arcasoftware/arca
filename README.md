@@ -1,5 +1,5 @@
 # proyeto arca
-#👨‍💻 aqui se ver reflejado la descripcion del proyecto arca.
+👨‍💻 aqui se ver reflejado la descripcion del proyecto arca.
 
 NOMBRE DEL PROYECTO: 
 
