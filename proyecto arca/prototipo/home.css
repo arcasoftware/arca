@@ -317,7 +317,7 @@ ul li{
     background: linear-gradient(to right, rgba(33, 29, 29, 0.887), rgba(33, 29, 29, 0.887)), url(img/hero.jpg);
     color: #ffffff;
     width: 100%;
-    height: 20rem;
+    height: 40rem;
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
@@ -325,15 +325,9 @@ ul li{
     justify-content: center ;
     align-items: center;
     text-align: center;
-    font-size: 5rem;
+    font-size: 10rem;
     font-family: 'Kaushan Script', cursive;
 
-}
-@media (min-width: 768px) {
-    .hero{
-        height: 40rem;
-        font-size: 10rem;
-    }
 }
 
 .color{
@@ -391,26 +385,18 @@ ul li{
 }
 
 .tablaimagen  img {
- display: none;
+
+    width: 150px;
+    height: 60px;
+    background: red;
+    border: 0;
+    transition: transform .3s ease-out;
 
 }
-
-
 
 .tablaimagen img:hover{
     transform: scale(1.2);
     
-}
-
-@media (min-width: 768px) {
-    .tablaimagen img{
-        width: 150px;
-        height: 60px;
-        background: red;
-        border: 0;
-        transition: transform .3s ease-out;
-        display: flex;
-    }
 }
 
 .barra_menu>table{
@@ -426,29 +412,27 @@ ul li{
     font-size: 2rem;
     text-align: center;
     border: 0.1rem solid black;
+
 }
 
 .nombres-menu :hover{
     color:white;
     text-decoration: none;
+
 }
+
 
 .banner_ped{
     margin-top: 0px;
     background:  url(imagenes/banner_pedido.jpg);
     width: 100%;
-    height: 25rem;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-@media (min-width: 768px) {
-    .banner_ped{
-        height: 50rem;
-    }
-}
 
 .boton-pedido td {
-    width: 20rem;
+    width: 24PX;
     padding: 240px;
     font-size: 18px;
     font-weight: bold;
@@ -460,82 +444,48 @@ ul li{
     cursor:pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.boton-pedido button{
-    width: 15rem;
-    height: 2rem;
-}
 
-@media (min-width: 768px) {
-    .boton-pedido button{
-        width: 30rem;
-        height: 4rem;
-    }
-}
-
-.boton-pedido button:hover{
+.boton-pedido td :hover{
 background: red;
 transform: scale(1.2);
 font-family: "Kaushan Scrip","cursive";
 color:white;
 }
 
-/*
+
 button {
     width: 300px;
     height: 40px;
 }
-*/
 
-@media (min-width: 768px) {
-    .caja{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        }
+.caja{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
 }
 
-.como_llegar {
-    background-image: url(imagenes/como_llegar.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    text-align: center;
+.caja img{
+  
+    justify-items: center;
+    margin-left: 100px;
+    width: 80%;
+    height: 500px;
+    margin-top: 80px;
+    border-radius: 15px;
+    
+    
 }
-
-.como_llegar a{
-    background-color:#8F0005;
-    border-radius:15px;
-    color:white;
-    text-transform:uppercase;
-    padding:1em 1.5em;
-    width: 15rem;
+.caja img :hover{
+    opacity: 0,3;
 }
-
-
-.buzon {
-    background-image: url(imagenes/buzon\ azul.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    text-align: center;
-}
-.buzon a{
-    background-color:#8F0005;
-    border-radius:15px;
-    color:white;
-    text-transform:uppercase;
-    padding:1em 1.5em;
-    width: 15rem;
-}
+  
+.button-container {
+    display:flex ;
+    position:relative;
+    bottom:260px ;
+    right:10px;
+    justify-content: space-around;
+    }
     
     .button-container a{
     display: inline-flex;
