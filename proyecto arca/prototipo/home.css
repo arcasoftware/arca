@@ -1,4 +1,4 @@
-/* list-style:none quita los puntos de la lista*/
+|/* list-style:none quita los puntos de la lista*/
 /* text-decoracion_none quita el subrayaddo de nuestros links*/
 html{
     min-height: 100%;
@@ -1078,7 +1078,6 @@ background:red;
     height: 115px;
     background-color: #EE1111;
     color: white;
-    position: sticky;
     bottom: 0;
 
 }
