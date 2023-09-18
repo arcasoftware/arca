@@ -1,0 +1,314 @@
+/*estyle confirmacion de registro*/
+
+/* list-style:none quita los puntos de la lista*/
+/* text-decoracion_none quita el subrayaddo de nuestros links*/
+html{
+min-height: 100%;
+position: relative;
+}
+
+*{
+margin: 0;    
+margin-bottom: 40px;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+
+}
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/*input buscar*/
+.buscar1 {
+padding: 10px;
+border: none;
+width: 300px;
+height: 30px;
+translate: -15px -25px;
+border-radius: 50px;
+}
+
+/*HEADER*/
+.container{
+max-width: 100%;
+margin: 0 auto;
+}
+
+/* color y relleno de nuestro header */
+.back{
+padding:38px 0;
+/* background-color: #fe8a25fd;*/
+}
+
+/*degradao 
+background:linear-gradient(#fe8a25fd 70%,white )*/
+
+.degradado{
+background:#EE1111
+}
+
+/* posicion:absolute para poder  aplicar top left right...
+align-center: para centrar los elementos
+z-index para que el menu aparezca adelante
+*/
+.menu{
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+    
+z-index: 1000;
+}
+/**/
+
+.logo img{
+width: 60px;
+height: 60px;
+justify-content: flex-start;
+border-radius: 80%;
+position: absolute;
+bottom: 7px;
+left: 30px;
+transition: transform .3s ease-out;
+}
+
+.logo img:hover {
+transform: scale(1.2);
+}
+
+/**/
+.lista_menu {
+margin: 5px ;
+}
+
+.menu .lista_menu ul li {
+position: relative;
+float: left;
+border-color: #ffffff;
+}
+
+.menu .lista_menu ul li a{
+font-size: 15px;
+padding: 20px;
+color: black;
+display: block;
+font-size: 20px;
+font-weight: 400;
+}
+
+
+.menu .lista_menu ul li a:hover{
+color:white;
+}
+
+#menu{
+display: none;
+
+}
+.menu_icono{
+width: 25px;
+display:none;
+}
+
+ul.nav {
+cursor: pointer;
+position: absolute;
+right: 0;
+display: flex;
+float: left;
+}
+
+.nav img{
+width: 25px;
+margin: 15px;
+transition: transform .3s ease-out;
+}
+
+.nav img:hover{
+transform: scale(1.5);
+}
+
+
+ol{
+list-style: none;
+}
+
+menu .nav li a {
+background-color: transparent;
+color: black;
+text-decoration: none;
+display: block;
+align-items: center;
+}
+
+
+.nav > li {
+float: left;
+}
+
+.nav li ul{
+display: none;
+position: absolute;
+max-width: 150px;
+}
+
+.nav li:hover > ul{
+display: block;
+color:black;
+}
+
+
+.nav{
+position: absolute;
+right: 100px;
+margin: 1px;
+align-items: center;
+}
+
+.nav ul li{
+float: left
+}
+
+.nav li ul{
+background: #EE1111;
+display: none;
+position: absolute;
+max-width: 150px;
+}
+.lista_menu{
+position: relative;
+left: 400px;
+
+
+}
+.lista_menu li ul{
+    background-color: #EE1111;
+    display: none;
+    position: absolute;
+    max-width: 150px;
+
+}
+.lista_menu li:hover > ul{
+    display: block;
+    color:black;
+}
+
+.lista_menu li:hover{
+    color:white;
+    background: #EE1111;
+    width: auto
+    
+}
+
+.style_des li a{
+    font-size: 15px;
+    padding: 20px;
+    color: black;
+    display: block;
+}
+
+
+.style_des li a:hover{
+    color:white;
+    background-color: #FF0033;
+    width: 100%
+}
+
+
+.contacto li a{
+    background: #EE1111;
+color: black;
+text-decoration: none;
+padding: 10px 15px;
+display: block;
+text-align: center;
+}
+.contacto > li {
+    float:left;
+}
+.contacto li ul{
+display:none;
+position: absolute;
+min-width: 140px;
+}
+
+.contacto li:hover > ul{
+display:block;
+background-color: #EE1111;
+}
+
+.contacto img{
+width: 20px;
+height: 20px; 
+}
+
+
+/*header*/
+*{
+margin: 0;
+padding: 0;
+}
+
+html {
+box-sizing: border-box;
+font-size: 62.5%;
+}
+  
+*, *:before, *:after {
+box-sizing: inherit;
+}
+  
+body{
+max-width: 100%
+}
+
+/*registro exitoso*/
+
+.verifica {
+height: 200px;
+margin-left: 500px;
+margin-right: 500px;
+margin-top: 200px;
+border: 1px solid black;
+background: #EE1111;
+text-align: center;
+}
+
+.verifica h1,h2 {
+color: white;
+}
+
+
+/*footer*/
+
+.footer{
+padding-top: 20px;
+background-color: #EE1111;
+text-align: center;
+font-size: 2rem;;
+text-align: center;
+width: 100%;
+height: 115px;
+color: white;
+position:absolute;
+bottom: 0;
+
+}
+.footer .alinear img{
+    width: 30px;
+    height: 30px;
+    float: left;
+
+  }
+
+  .alinear{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px ;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
