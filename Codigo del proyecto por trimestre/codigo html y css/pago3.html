@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas rápidas LA CABAÑA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap&family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+  </head>
+<body>
+    <header class="degradado">
+        <div class="back">
+            <div class="menu">
+                <a href="home.html" class="logo"><img src="img/image.6.jfif" alt=""></a>
+                <nav  class="nav">
+                <ul>
+                    <li><a href="carrito.html"><img src="img/Carrito.png" class="carrito_icono" alt="Carrito"></a></li>
+                    <li><a href="#"><img src="img/search.png" class="buscar_icono" alt="Buscar"></a>
+                      <input type="search" class="buscar1" placeholder="Buscar"></li>
+                    <li><a href="perfil.html"><img src="img/User.png" class="perfil_icono" alt="Usuario"></a>
+                        <ul class="style_des">
+                            <li><a href="iniciar.html"> Iniciar Sesion</li></a>
+                            <li><a href="registro.html"> Registrarse</li></a>
+                        </ul>    
+                    </li>
+                </ul>  
+            </nav>
+                <nav class="lista_menu">
+                    <ul>
+                        <li><a href="categorias.html">Menú</a>
+                            <ul class="style_des">
+                            </ul>
+                        </li>
+                        <li><a href="pide_online.html">Pide Online</a></li>
+                        <li><a href="como-llegar.html">Como llegar</a></li>
+                        <li><a href="sugerencias.html">Sugerencias</a></li>
+                        <li><a href="#">Contactos</a>
+                            <ul class="contacto">
+                                <li><a href="#"><img src="img/whatsapp.png" alt="Telefono">3102945102</a></li>
+                                <li><a href="#"><img src="img/telefono.png" alt="whatsapp">(601)284919</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                 </nav>
+            </div>
+        </div>
+</header>
+<main>
+    <div class="progress-bar">
+        <div class="stage">
+          <div class="stage-icon">
+            <span class="stage-number">1</span>
+          </div>
+          <div class="stage-description">Información</div>
+        </div>
+        <div class="stage">
+          <div class="stage-icon">
+            <span class="stage-number">2</span>
+          </div>
+          <div class="stage-description">Dirección de envío</div>
+        </div>
+        <div class="stage  active">
+          <div class="stage-icon">
+            <span class="stage-number">3</span>
+          </div>
+          <div class="stage-description">Forma de pago</div>
+        </div>
+        <div class="stage">
+          <div class="stage-icon">
+            <span class="stage-number">4</span>
+          </div>
+          <div class="stage-description">Revisión y Aprobación</div>
+        </div>
+      </div>
+    <section>
+      <div class="centrar">
+        <form class="payment-form" action="checkout.html" method="post">
+            <table>
+              <tr>
+                <th colspan="2">Método de pago</th>
+                <th>Descripción</th>
+              </tr>
+              <tr>
+                <td><img src="img/tarjeta.jpg"></td>
+                <td>
+                  <input type="radio" id="method-card" name="payment-method" value="card" checked>
+                  <label for="method-card">Tarjeta de crédito</label>
+                </td>
+                <td>Paga con tu tarjeta de crédito</td>
+              </tr>
+              <tr>
+                <td><img src="img/nequi.jpg"></td>
+                <td>
+                  <input type="radio" id="method-paypal" name="payment-method" value="paypal">
+                  <label for="method-paypal">Nequi-Daviplata</label>
+                </td>
+                <td>Paga a través de tu cuenta Nequi o Daviplata</td>
+              </tr>
+              <tr>
+                <td><img src="img/efectivo.jpg"></td>
+                <td>
+                  <input type="radio" id="method-cash" name="payment-method" value="cash">
+                  <label for="method-cash">Efectivo</label>
+                </td>
+                <td>Paga en efectivo al momento de la entrega</td>
+              </tr>
+            </tr>
+            <td class="boton" colspan="2">
+                <input type="submit" value="CONTINUAR">
+            </td>
+        </tr>
+            </table>
+          </form>
+        </div>
+    </section>
+</main>
+<footer class="footer degradado">
+    <p>2002-COMIDAS RAPIDAS LA CABAÑA. Todos los derechos reservados ©</p>               
+    
+    <ul class="alinear">
+       <li><a href="#"><img src="img/facebook.png" alt="Img facebook"></a></li>
+        <li><a href="#"><img src="img/instagram.png" alt="Img instagram"></a></li>
+        <li><a href="#"><img src="img/twitter.png" alt="Img twitter"></a></li>
+    </ul>
+</footer>
+</body>
+  </html>
