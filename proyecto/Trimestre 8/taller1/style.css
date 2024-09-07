@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.pokemon-list {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pokemon-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.pokemon-item h2 {
+    margin-top: 0;
+}
+
+.pokemon-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.pokemon-item a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.pokemon-item a:hover {
+    color: #23527c;
+}

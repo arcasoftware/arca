@@ -1,0 +1,29 @@
+1. creamos el proyecto appSena
+$ npm create vite@latest appSena
+3 pasos
+	1. confirmar el nombre (Y)
+	2. escoger el frameWork (React)
+	3. escoger el lenguaje de desarrollo (javaScript)
+una vez creado el proyecto se intalan las dependencias
+ 
+appSena$ npm install
+
+corremos la aplicacion
+
+appSena$ npm run dev
+http://localhost:XXX(puerto)xxx/
+
+--------------------------> instalar dependecias a usar 
+material UI
+npm install @mui/material @emotion/react @emotion/styled
+Iconos
+npm install react-icons --save
+
+
+
+
+
+
+
+
+
